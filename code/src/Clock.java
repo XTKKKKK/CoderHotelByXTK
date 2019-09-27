@@ -26,4 +26,12 @@ public class Clock {
                 ", TimeDistinction=" + TimeDistinction +
                 '}';
     }
+
+    public int getTimeDistinction() {
+        return TimeDistinction;
+    }
+
+    public void setTimeDistinction(int timeDistinction) {
+        this.TimeDistinction = timeDistinction;
+    }
 }
